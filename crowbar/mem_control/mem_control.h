@@ -10,4 +10,6 @@ struct MEM_Controller_tag {
     MEM_FailMode        fail_mode;
     Header              *block_header;
 };
+
+
 #endif

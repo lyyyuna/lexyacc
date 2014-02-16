@@ -1,0 +1,99 @@
+﻿生成启动时间为 2014/2/16 10:11:37。
+     1>项目“F:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\crowbar_vs.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\crowbar_vs.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         M:\app\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt create.c DBG_module\debug.c error.c error_message_not_gcc.c eval.c execute.c interface.c lex.yy.c main.c memory_module\memory.c memory_module\storage.c native.c string.c string_pool.c util.c y.tab.c
+         y.tab.c
+     1>y.tab.c(1507): warning C4013: “yylex”未定义；假设外部返回 int
+     1>y.tab.c(2080): warning C4013: “yyerror”未定义；假设外部返回 int
+         util.c
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\util.c(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         string_pool.c
+         string.c
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\string.c(60): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         native.c
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\native.c(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\native.c(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\native.c(151): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+         storage.c
+         memory.c
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\memory_module\memory.c(231): warning C4018: “>”: 有符号/无符号不匹配
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\memory_module\memory.c(265): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         main.c
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\main.c(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         lex.yy.c
+     1>crowbar.l(61): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>crowbar.l(67): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>crowbar.l(81): warning C4013: “isprint”未定义；假设外部返回 int
+     1>crowbar.l(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>lex.yy.c(1704): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(723) : 参见“fileno”的声明
+         interface.c
+         execute.c
+         eval.c
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\eval.c(374): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\eval.c(375): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\eval.c(431): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\eval.c(434): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\eval.c(449): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         error_message_not_gcc.c
+         error.c
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\error.c(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\error.c(147): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\error.c(151): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\error.c(155): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\error.c(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\error.c(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 m:\app\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         debug.c
+         create.c
+         正在生成代码...
+       Link:
+         M:\app\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\git_up\lexyacc\crowbar\crowbar_vs\Debug\crowbar_vs.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\crowbar_vs.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\git_up\lexyacc\crowbar\crowbar_vs\Debug\crowbar_vs.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\git_up\lexyacc\crowbar\crowbar_vs\Debug\crowbar_vs.lib" /MACHINE:X86 Debug\create.obj
+         Debug\debug.obj
+         Debug\error.obj
+         Debug\error_message_not_gcc.obj
+         Debug\eval.obj
+         Debug\execute.obj
+         Debug\interface.obj
+         Debug\lex.yy.obj
+         Debug\main.obj
+         Debug\memory.obj
+         Debug\storage.obj
+         Debug\native.obj
+         Debug\string.obj
+         Debug\string_pool.obj
+         Debug\util.obj
+         Debug\y.tab.obj
+         crowbar_vs.vcxproj -> F:\git_up\lexyacc\crowbar\crowbar_vs\Debug\crowbar_vs.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\git_up\lexyacc\crowbar\crowbar_vs\Debug\crowbar_vs.exe;#1" /manifest Debug\crowbar_vs.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\crowbar_vs.unsuccessfulbuild”。
+         正在对“Debug\crowbar_vs.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\git_up\lexyacc\crowbar\crowbar_vs\crowbar_vs\crowbar_vs.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.02
