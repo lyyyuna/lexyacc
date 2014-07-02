@@ -555,7 +555,6 @@ increment_line_number(void)
 #define COMMENT 1
 #define STRING_LITERAL_STATE 2
 
-#define YY_NO_UNISTD_H
 #ifndef YY_NO_UNISTD_H
 /* Special case for "unistd.h", since it is non-ANSI. We include it way
  * down here because we want the user's section 1 to have been scanned first.
